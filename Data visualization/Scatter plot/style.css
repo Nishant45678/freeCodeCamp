@@ -1,0 +1,40 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  min-height: 100dvh;
+  font-family: Arial, sans-serif;
+  background-color: #bfc9ce;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+  
+}
+
+#scatter{
+  max-width: 950px;
+  width: 100%;
+  background-color: #5dbad1;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 4px #302f2f1a;
+  outline: 1px solid #417f8f;
+  margin: 1em;
+  padding: 1em;
+
+}
+
+#tooltip{
+  background-color: #8acfe0a2;
+  border-radius: 15px;
+  outline: 1px solid #3f5e66;
+  position: absolute;
+  box-shadow: 0 4px 8px 4px #302f2f1a;
+  font-size: small;
+  padding: 0.8em 1em;
+  opacity: 0;
+  color: #000;
+}
