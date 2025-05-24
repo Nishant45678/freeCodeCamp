@@ -1,0 +1,40 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100dvh;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #4b595f;
+  padding:1em;
+}
+
+#heatmap{
+  background-color:  #264c5f;
+  border-radius: 15px;
+  outline: 1px solid #165d6e;
+  max-width: 950px;
+  width: 100%;
+  box-shadow: 0 4px 8px 4px #302f2f1a;
+  margin: 1em;
+  padding: 1em;
+}
+
+#tooltip{
+  position:absolute;
+  border-radius: 10px;
+  background-color:  #507d94;
+  outline: 1px solid #165d6e;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+
+}
