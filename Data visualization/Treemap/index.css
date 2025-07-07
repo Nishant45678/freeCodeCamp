@@ -16,7 +16,7 @@ body {
 
 #container {
   max-width: 900px;
-  min-width: 560px;
+  min-width: 400px;
   width: 100%;
   background-color: rgba(196, 228, 241, 0.767);
   border-radius: 10px;
