@@ -6,3 +6,7 @@
 - [Heatmap](./Data%20visualization/Heatmap) 
 - [Choroplethmap](./Data%20visualization/Choroplethmap) 
 - [Treemap](./Data%20visualization/Treemap) 
+
+
+## Frontend frameworks projects
+- [Random Quote Machine](./Frontend%20challenges/Random%20Quote%20Machine/)
